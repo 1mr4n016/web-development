@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +7,24 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #888585;
   color: #333;
+  position: relative;
+  overflow-x: hidden;
 }
 
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
+
+/* 🔵 Decorative Inward Arc */
+.decorative-arc {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  background-color: #2d3ebb;
+  border-bottom-left-radius: 100%;
+  z-index: -1;
+  opacity: 0.3;
 }
 
 /* Header */
@@ -22,6 +32,12 @@ header {
   background-color: white;
   border-bottom: 1px solid #ddd;
   padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .logo {
@@ -51,14 +67,13 @@ nav ul li a:hover {
   color: #007BFF;
 }
 
-/* Clearfix */
 header::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
   background-color: #e3f2fd;
   padding: 60px 0;
