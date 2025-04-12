@@ -1,0 +1,69 @@
+﻿body {
+    background-color: #f4f4f4;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    align-items: center;
+}
+
+h1.page-title,
+.entry-title {
+    color: #b30059;
+    font-size: 28px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.entry-content p,
+.entry-content ul {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.entry-content ul {
+    padding-left: 20px;
+}
+
+.entry-content ul li {
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    background-color: #ffe6f2;
+    padding: 15px 20px;
+    border-left: 5px solid #cc0066;
+    font-style: italic;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.page-title {
+    text-align: center; /* Horizontally center */
+    margin-top: 50px; /* Top se thoda distance */
+}
+
+.page-title span {
+    display: block;
+    font-size: 18px; /* Adjust karna ho toh */
+    margin-top: 10px; /* Space between title and span */
+    color: #cc0066; /* Color change */
+}
+
+
